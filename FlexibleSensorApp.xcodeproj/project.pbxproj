@@ -19,6 +19,8 @@
 		69B4364B18757F5D00E6E90E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4363318757F5D00E6E90E /* UIKit.framework */; };
 		69B4365318757F5E00E6E90E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365118757F5E00E6E90E /* InfoPlist.strings */; };
 		69B4365518757F5E00E6E90E /* FlexibleSensorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */; };
+		69B436601875845000E6E90E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365E1875845000E6E90E /* LICENSE */; };
+		69B436611875845000E6E90E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365F1875845000E6E90E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		69B4365018757F5D00E6E90E /* FlexibleSensorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleSensorAppTests-Info.plist"; sourceTree = "<group>"; };
 		69B4365218757F5E00E6E90E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleSensorAppTests.m; sourceTree = "<group>"; };
+		69B4365E1875845000E6E90E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69B4365F1875845000E6E90E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		69B4362318757F5D00E6E90E = {
 			isa = PBXGroup;
 			children = (
+				69B4365E1875845000E6E90E /* LICENSE */,
+				69B4365F1875845000E6E90E /* README.md */,
 				69B4363518757F5D00E6E90E /* FlexibleSensorApp */,
 				69B4364E18757F5D00E6E90E /* FlexibleSensorAppTests */,
 				69B4362E18757F5D00E6E90E /* Frameworks */,
@@ -220,7 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B436601875845000E6E90E /* LICENSE in Resources */,
 				69B4363A18757F5D00E6E90E /* InfoPlist.strings in Resources */,
+				69B436611875845000E6E90E /* README.md in Resources */,
 				69B4364218757F5D00E6E90E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
