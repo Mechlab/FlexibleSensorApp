@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B4363018757F5D00E6E90E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4362F18757F5D00E6E90E /* Foundation.framework */; };
+		69B4363218757F5D00E6E90E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4363118757F5D00E6E90E /* CoreGraphics.framework */; };
+		69B4363418757F5D00E6E90E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4363318757F5D00E6E90E /* UIKit.framework */; };
+		69B4363A18757F5D00E6E90E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B4363818757F5D00E6E90E /* InfoPlist.strings */; };
+		69B4363C18757F5D00E6E90E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4363B18757F5D00E6E90E /* main.m */; };
+		69B4364018757F5D00E6E90E /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4363F18757F5D00E6E90E /* JCAppDelegate.m */; };
+		69B4364218757F5D00E6E90E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B4364118757F5D00E6E90E /* Images.xcassets */; };
+		69B4364918757F5D00E6E90E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4364818757F5D00E6E90E /* XCTest.framework */; };
+		69B4364A18757F5D00E6E90E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4362F18757F5D00E6E90E /* Foundation.framework */; };
+		69B4364B18757F5D00E6E90E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4363318757F5D00E6E90E /* UIKit.framework */; };
+		69B4365318757F5E00E6E90E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365118757F5E00E6E90E /* InfoPlist.strings */; };
+		69B4365518757F5E00E6E90E /* FlexibleSensorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B4364C18757F5D00E6E90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B4362418757F5D00E6E90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B4362B18757F5D00E6E90E;
+			remoteInfo = FlexibleSensorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B4362C18757F5D00E6E90E /* FlexibleSensorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleSensorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B4362F18757F5D00E6E90E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69B4363118757F5D00E6E90E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69B4363318757F5D00E6E90E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69B4363718757F5D00E6E90E /* FlexibleSensorApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleSensorApp-Info.plist"; sourceTree = "<group>"; };
+		69B4363918757F5D00E6E90E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B4363B18757F5D00E6E90E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69B4363D18757F5D00E6E90E /* FlexibleSensorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlexibleSensorApp-Prefix.pch"; sourceTree = "<group>"; };
+		69B4363E18757F5D00E6E90E /* JCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCAppDelegate.h; sourceTree = "<group>"; };
+		69B4363F18757F5D00E6E90E /* JCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCAppDelegate.m; sourceTree = "<group>"; };
+		69B4364118757F5D00E6E90E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69B4364718757F5D00E6E90E /* FlexibleSensorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexibleSensorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B4364818757F5D00E6E90E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69B4365018757F5D00E6E90E /* FlexibleSensorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleSensorAppTests-Info.plist"; sourceTree = "<group>"; };
+		69B4365218757F5E00E6E90E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleSensorAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B4362918757F5D00E6E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4363218757F5D00E6E90E /* CoreGraphics.framework in Frameworks */,
+				69B4363418757F5D00E6E90E /* UIKit.framework in Frameworks */,
+				69B4363018757F5D00E6E90E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B4364418757F5D00E6E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4364918757F5D00E6E90E /* XCTest.framework in Frameworks */,
+				69B4364B18757F5D00E6E90E /* UIKit.framework in Frameworks */,
+				69B4364A18757F5D00E6E90E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B4362318757F5D00E6E90E = {
+			isa = PBXGroup;
+			children = (
+				69B4363518757F5D00E6E90E /* FlexibleSensorApp */,
+				69B4364E18757F5D00E6E90E /* FlexibleSensorAppTests */,
+				69B4362E18757F5D00E6E90E /* Frameworks */,
+				69B4362D18757F5D00E6E90E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B4362D18757F5D00E6E90E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B4362C18757F5D00E6E90E /* FlexibleSensorApp.app */,
+				69B4364718757F5D00E6E90E /* FlexibleSensorAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B4362E18757F5D00E6E90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B4362F18757F5D00E6E90E /* Foundation.framework */,
+				69B4363118757F5D00E6E90E /* CoreGraphics.framework */,
+				69B4363318757F5D00E6E90E /* UIKit.framework */,
+				69B4364818757F5D00E6E90E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69B4363518757F5D00E6E90E /* FlexibleSensorApp */ = {
+			isa = PBXGroup;
+			children = (
+				69B4363E18757F5D00E6E90E /* JCAppDelegate.h */,
+				69B4363F18757F5D00E6E90E /* JCAppDelegate.m */,
+				69B4364118757F5D00E6E90E /* Images.xcassets */,
+				69B4363618757F5D00E6E90E /* Supporting Files */,
+			);
+			path = FlexibleSensorApp;
+			sourceTree = "<group>";
+		};
+		69B4363618757F5D00E6E90E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B4363718757F5D00E6E90E /* FlexibleSensorApp-Info.plist */,
+				69B4363818757F5D00E6E90E /* InfoPlist.strings */,
+				69B4363B18757F5D00E6E90E /* main.m */,
+				69B4363D18757F5D00E6E90E /* FlexibleSensorApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B4364E18757F5D00E6E90E /* FlexibleSensorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */,
+				69B4364F18757F5D00E6E90E /* Supporting Files */,
+			);
+			path = FlexibleSensorAppTests;
+			sourceTree = "<group>";
+		};
+		69B4364F18757F5D00E6E90E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B4365018757F5D00E6E90E /* FlexibleSensorAppTests-Info.plist */,
+				69B4365118757F5E00E6E90E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B4362B18757F5D00E6E90E /* FlexibleSensorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B4365818757F5E00E6E90E /* Build configuration list for PBXNativeTarget "FlexibleSensorApp" */;
+			buildPhases = (
+				69B4362818757F5D00E6E90E /* Sources */,
+				69B4362918757F5D00E6E90E /* Frameworks */,
+				69B4362A18757F5D00E6E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexibleSensorApp;
+			productName = FlexibleSensorApp;
+			productReference = 69B4362C18757F5D00E6E90E /* FlexibleSensorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B4364618757F5D00E6E90E /* FlexibleSensorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B4365B18757F5E00E6E90E /* Build configuration list for PBXNativeTarget "FlexibleSensorAppTests" */;
+			buildPhases = (
+				69B4364318757F5D00E6E90E /* Sources */,
+				69B4364418757F5D00E6E90E /* Frameworks */,
+				69B4364518757F5D00E6E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B4364D18757F5D00E6E90E /* PBXTargetDependency */,
+			);
+			name = FlexibleSensorAppTests;
+			productName = FlexibleSensorAppTests;
+			productReference = 69B4364718757F5D00E6E90E /* FlexibleSensorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B4362418757F5D00E6E90E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Johannes Camin";
+				TargetAttributes = {
+					69B4364618757F5D00E6E90E = {
+						TestTargetID = 69B4362B18757F5D00E6E90E;
+					};
+				};
+			};
+			buildConfigurationList = 69B4362718757F5D00E6E90E /* Build configuration list for PBXProject "FlexibleSensorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69B4362318757F5D00E6E90E;
+			productRefGroup = 69B4362D18757F5D00E6E90E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B4362B18757F5D00E6E90E /* FlexibleSensorApp */,
+				69B4364618757F5D00E6E90E /* FlexibleSensorAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B4362A18757F5D00E6E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4363A18757F5D00E6E90E /* InfoPlist.strings in Resources */,
+				69B4364218757F5D00E6E90E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B4364518757F5D00E6E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4365318757F5E00E6E90E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B4362818757F5D00E6E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4363C18757F5D00E6E90E /* main.m in Sources */,
+				69B4364018757F5D00E6E90E /* JCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B4364318757F5D00E6E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B4365518757F5E00E6E90E /* FlexibleSensorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B4364D18757F5D00E6E90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B4362B18757F5D00E6E90E /* FlexibleSensorApp */;
+			targetProxy = 69B4364C18757F5D00E6E90E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B4363818757F5D00E6E90E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B4363918757F5D00E6E90E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69B4365118757F5E00E6E90E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B4365218757F5E00E6E90E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B4365618757F5E00E6E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B4365718757F5E00E6E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B4365918757F5E00E6E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleSensorApp/FlexibleSensorApp-Prefix.pch";
+				INFOPLIST_FILE = "FlexibleSensorApp/FlexibleSensorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69B4365A18757F5E00E6E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleSensorApp/FlexibleSensorApp-Prefix.pch";
+				INFOPLIST_FILE = "FlexibleSensorApp/FlexibleSensorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69B4365C18757F5E00E6E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlexibleSensorApp.app/FlexibleSensorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleSensorApp/FlexibleSensorApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlexibleSensorAppTests/FlexibleSensorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69B4365D18757F5E00E6E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlexibleSensorApp.app/FlexibleSensorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlexibleSensorApp/FlexibleSensorApp-Prefix.pch";
+				INFOPLIST_FILE = "FlexibleSensorAppTests/FlexibleSensorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B4362718757F5D00E6E90E /* Build configuration list for PBXProject "FlexibleSensorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B4365618757F5E00E6E90E /* Debug */,
+				69B4365718757F5E00E6E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B4365818757F5E00E6E90E /* Build configuration list for PBXNativeTarget "FlexibleSensorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B4365918757F5E00E6E90E /* Debug */,
+				69B4365A18757F5E00E6E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B4365B18757F5E00E6E90E /* Build configuration list for PBXNativeTarget "FlexibleSensorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B4365C18757F5E00E6E90E /* Debug */,
+				69B4365D18757F5E00E6E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B4362418757F5D00E6E90E /* Project object */;
+}
