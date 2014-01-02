@@ -21,6 +21,34 @@
 		69B4365518757F5E00E6E90E /* FlexibleSensorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */; };
 		69B436601875845000E6E90E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365E1875845000E6E90E /* LICENSE */; };
 		69B436611875845000E6E90E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B4365F1875845000E6E90E /* README.md */; };
+		69B43690187585D400E6E90E /* DidactGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69B43664187585D400E6E90E /* DidactGothic.ttf */; };
+		69B43691187585D400E6E90E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B43666187585D400E6E90E /* Default-568h@2x.png */; };
+		69B43692187585D400E6E90E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B43667187585D400E6E90E /* Default.png */; };
+		69B43693187585D500E6E90E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B43668187585D400E6E90E /* Default@2x.png */; };
+		69B43694187585D500E6E90E /* mechlab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B43669187585D400E6E90E /* mechlab-icon.png */; };
+		69B43695187585D500E6E90E /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4366D187585D400E6E90E /* IonIcons.m */; };
+		69B43696187585D500E6E90E /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69B4366E187585D400E6E90E /* ionicons.ttf */; };
+		69B43697187585D500E6E90E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69B4366F187585D400E6E90E /* LICENSE */; };
+		69B43698187585D500E6E90E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B43670187585D400E6E90E /* README.md */; };
+		69B43699187585D500E6E90E /* SensorToCoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B43671187585D400E6E90E /* SensorToCoreDataTest.xcdatamodeld */; };
+		69B4369A187585D500E6E90E /* JCFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43675187585D400E6E90E /* JCFilterManager.m */; };
+		69B4369B187585D500E6E90E /* JCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43679187585D400E6E90E /* JCLogger.m */; };
+		69B4369C187585D500E6E90E /* JCAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4367C187585D400E6E90E /* JCAppData.m */; };
+		69B4369D187585D500E6E90E /* JCFilterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4367E187585D400E6E90E /* JCFilterData.m */; };
+		69B4369E187585D500E6E90E /* JCSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43680187585D400E6E90E /* JCSensor.m */; };
+		69B4369F187585D500E6E90E /* JCSensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43682187585D400E6E90E /* JCSensorData.m */; };
+		69B436A0187585D500E6E90E /* JCSensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43684187585D400E6E90E /* JCSensorManager.m */; };
+		69B436A1187585D500E6E90E /* JCAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43687187585D400E6E90E /* JCAccelerometer.m */; };
+		69B436A2187585D500E6E90E /* JCDeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B43689187585D400E6E90E /* JCDeviceMotion.m */; };
+		69B436A3187585D500E6E90E /* JCGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4368B187585D400E6E90E /* JCGyroscope.m */; };
+		69B436A4187585D500E6E90E /* JCHeartRateDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4368D187585D400E6E90E /* JCHeartRateDevice.m */; };
+		69B436A5187585D500E6E90E /* JCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4368F187585D400E6E90E /* JCLocation.m */; };
+		69B436B01875861A00E6E90E /* JCGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B436A81875861A00E6E90E /* JCGraphView.m */; };
+		69B436B11875861A00E6E90E /* JCOptionTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B436AA1875861A00E6E90E /* JCOptionTableViewViewController.m */; };
+		69B436B21875861A00E6E90E /* JCSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B436AC1875861A00E6E90E /* JCSensorViewController.m */; };
+		69B436B31875861A00E6E90E /* SensorViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B436AD1875861A00E6E90E /* SensorViewControlleriPad.xib */; };
+		69B436B41875861A00E6E90E /* SensorViewControlleriPhone3.5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B436AE1875861A00E6E90E /* SensorViewControlleriPhone3.5.xib */; };
+		69B436B51875861A00E6E90E /* SensorViewControlleriPhone4.5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B436AF1875861A00E6E90E /* SensorViewControlleriPhone4.5.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +80,52 @@
 		69B4365418757F5E00E6E90E /* FlexibleSensorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleSensorAppTests.m; sourceTree = "<group>"; };
 		69B4365E1875845000E6E90E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69B4365F1875845000E6E90E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		69B43664187585D400E6E90E /* DidactGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DidactGothic.ttf; sourceTree = "<group>"; };
+		69B43666187585D400E6E90E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69B43667187585D400E6E90E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		69B43668187585D400E6E90E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		69B43669187585D400E6E90E /* mechlab-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mechlab-icon.png"; sourceTree = "<group>"; };
+		69B4366B187585D400E6E90E /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		69B4366C187585D400E6E90E /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		69B4366D187585D400E6E90E /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		69B4366E187585D400E6E90E /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		69B4366F187585D400E6E90E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69B43670187585D400E6E90E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		69B43672187585D400E6E90E /* SensorToCoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorToCoreDataTest.xcdatamodel; sourceTree = "<group>"; };
+		69B43674187585D400E6E90E /* JCFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCFilterManager.h; sourceTree = "<group>"; };
+		69B43675187585D400E6E90E /* JCFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCFilterManager.m; sourceTree = "<group>"; };
+		69B43676187585D400E6E90E /* SERVICES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SERVICES.h; sourceTree = "<group>"; };
+		69B43678187585D400E6E90E /* JCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLogger.h; sourceTree = "<group>"; };
+		69B43679187585D400E6E90E /* JCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLogger.m; sourceTree = "<group>"; };
+		69B4367B187585D400E6E90E /* JCAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAppData.h; sourceTree = "<group>"; };
+		69B4367C187585D400E6E90E /* JCAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAppData.m; sourceTree = "<group>"; };
+		69B4367D187585D400E6E90E /* JCFilterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCFilterData.h; sourceTree = "<group>"; };
+		69B4367E187585D400E6E90E /* JCFilterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCFilterData.m; sourceTree = "<group>"; };
+		69B4367F187585D400E6E90E /* JCSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSensor.h; sourceTree = "<group>"; };
+		69B43680187585D400E6E90E /* JCSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSensor.m; sourceTree = "<group>"; };
+		69B43681187585D400E6E90E /* JCSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSensorData.h; sourceTree = "<group>"; };
+		69B43682187585D400E6E90E /* JCSensorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSensorData.m; sourceTree = "<group>"; };
+		69B43683187585D400E6E90E /* JCSensorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSensorManager.h; sourceTree = "<group>"; };
+		69B43684187585D400E6E90E /* JCSensorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSensorManager.m; sourceTree = "<group>"; };
+		69B43686187585D400E6E90E /* JCAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAccelerometer.h; sourceTree = "<group>"; };
+		69B43687187585D400E6E90E /* JCAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAccelerometer.m; sourceTree = "<group>"; };
+		69B43688187585D400E6E90E /* JCDeviceMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDeviceMotion.h; sourceTree = "<group>"; };
+		69B43689187585D400E6E90E /* JCDeviceMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDeviceMotion.m; sourceTree = "<group>"; };
+		69B4368A187585D400E6E90E /* JCGyroscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGyroscope.h; sourceTree = "<group>"; };
+		69B4368B187585D400E6E90E /* JCGyroscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGyroscope.m; sourceTree = "<group>"; };
+		69B4368C187585D400E6E90E /* JCHeartRateDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHeartRateDevice.h; sourceTree = "<group>"; };
+		69B4368D187585D400E6E90E /* JCHeartRateDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHeartRateDevice.m; sourceTree = "<group>"; };
+		69B4368E187585D400E6E90E /* JCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLocation.h; sourceTree = "<group>"; };
+		69B4368F187585D400E6E90E /* JCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLocation.m; sourceTree = "<group>"; };
+		69B436A71875861A00E6E90E /* JCGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGraphView.h; sourceTree = "<group>"; };
+		69B436A81875861A00E6E90E /* JCGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGraphView.m; sourceTree = "<group>"; };
+		69B436A91875861A00E6E90E /* JCOptionTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCOptionTableViewViewController.h; sourceTree = "<group>"; };
+		69B436AA1875861A00E6E90E /* JCOptionTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCOptionTableViewViewController.m; sourceTree = "<group>"; };
+		69B436AB1875861A00E6E90E /* JCSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSensorViewController.h; sourceTree = "<group>"; };
+		69B436AC1875861A00E6E90E /* JCSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSensorViewController.m; sourceTree = "<group>"; };
+		69B436AD1875861A00E6E90E /* SensorViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorViewControlleriPad.xib; sourceTree = "<group>"; };
+		69B436AE1875861A00E6E90E /* SensorViewControlleriPhone3.5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorViewControlleriPhone3.5.xib; sourceTree = "<group>"; };
+		69B436AF1875861A00E6E90E /* SensorViewControlleriPhone4.5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorViewControlleriPhone4.5.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +155,11 @@
 		69B4362318757F5D00E6E90E = {
 			isa = PBXGroup;
 			children = (
+				69B436A61875861A00E6E90E /* Graphs */,
+				69B43662187585D400E6E90E /* Supporting Files */,
+				69B43673187585D400E6E90E /* Managers */,
+				69B43677187585D400E6E90E /* Logger */,
+				69B4367A187585D400E6E90E /* DataSources */,
 				69B4365E1875845000E6E90E /* LICENSE */,
 				69B4365F1875845000E6E90E /* README.md */,
 				69B4363518757F5D00E6E90E /* FlexibleSensorApp */,
@@ -148,6 +227,124 @@
 				69B4365118757F5E00E6E90E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B43662187585D400E6E90E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B43663187585D400E6E90E /* fonts */,
+				69B43665187585D400E6E90E /* images */,
+				69B4366A187585D400E6E90E /* ionicons */,
+				69B43671187585D400E6E90E /* SensorToCoreDataTest.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			path = "FlexibleSensorApp/Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B43663187585D400E6E90E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69B43664187585D400E6E90E /* DidactGothic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		69B43665187585D400E6E90E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				69B43666187585D400E6E90E /* Default-568h@2x.png */,
+				69B43667187585D400E6E90E /* Default.png */,
+				69B43668187585D400E6E90E /* Default@2x.png */,
+				69B43669187585D400E6E90E /* mechlab-icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		69B4366A187585D400E6E90E /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				69B4366B187585D400E6E90E /* ionicons-codes.h */,
+				69B4366C187585D400E6E90E /* IonIcons.h */,
+				69B4366D187585D400E6E90E /* IonIcons.m */,
+				69B4366E187585D400E6E90E /* ionicons.ttf */,
+				69B4366F187585D400E6E90E /* LICENSE */,
+				69B43670187585D400E6E90E /* README.md */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
+		69B43673187585D400E6E90E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				69B43674187585D400E6E90E /* JCFilterManager.h */,
+				69B43675187585D400E6E90E /* JCFilterManager.m */,
+				69B43676187585D400E6E90E /* SERVICES.h */,
+			);
+			name = Managers;
+			path = FlexibleSensorApp/Managers;
+			sourceTree = "<group>";
+		};
+		69B43677187585D400E6E90E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				69B43678187585D400E6E90E /* JCLogger.h */,
+				69B43679187585D400E6E90E /* JCLogger.m */,
+			);
+			name = Logger;
+			path = FlexibleSensorApp/Logger;
+			sourceTree = "<group>";
+		};
+		69B4367A187585D400E6E90E /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				69B4367B187585D400E6E90E /* JCAppData.h */,
+				69B4367C187585D400E6E90E /* JCAppData.m */,
+				69B4367D187585D400E6E90E /* JCFilterData.h */,
+				69B4367E187585D400E6E90E /* JCFilterData.m */,
+				69B4367F187585D400E6E90E /* JCSensor.h */,
+				69B43680187585D400E6E90E /* JCSensor.m */,
+				69B43681187585D400E6E90E /* JCSensorData.h */,
+				69B43682187585D400E6E90E /* JCSensorData.m */,
+				69B43683187585D400E6E90E /* JCSensorManager.h */,
+				69B43684187585D400E6E90E /* JCSensorManager.m */,
+				69B43685187585D400E6E90E /* Sensors */,
+			);
+			name = DataSources;
+			path = FlexibleSensorApp/DataSources;
+			sourceTree = "<group>";
+		};
+		69B43685187585D400E6E90E /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				69B43686187585D400E6E90E /* JCAccelerometer.h */,
+				69B43687187585D400E6E90E /* JCAccelerometer.m */,
+				69B43688187585D400E6E90E /* JCDeviceMotion.h */,
+				69B43689187585D400E6E90E /* JCDeviceMotion.m */,
+				69B4368A187585D400E6E90E /* JCGyroscope.h */,
+				69B4368B187585D400E6E90E /* JCGyroscope.m */,
+				69B4368C187585D400E6E90E /* JCHeartRateDevice.h */,
+				69B4368D187585D400E6E90E /* JCHeartRateDevice.m */,
+				69B4368E187585D400E6E90E /* JCLocation.h */,
+				69B4368F187585D400E6E90E /* JCLocation.m */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		69B436A61875861A00E6E90E /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				69B436A71875861A00E6E90E /* JCGraphView.h */,
+				69B436A81875861A00E6E90E /* JCGraphView.m */,
+				69B436A91875861A00E6E90E /* JCOptionTableViewViewController.h */,
+				69B436AA1875861A00E6E90E /* JCOptionTableViewViewController.m */,
+				69B436AB1875861A00E6E90E /* JCSensorViewController.h */,
+				69B436AC1875861A00E6E90E /* JCSensorViewController.m */,
+				69B436AD1875861A00E6E90E /* SensorViewControlleriPad.xib */,
+				69B436AE1875861A00E6E90E /* SensorViewControlleriPhone3.5.xib */,
+				69B436AF1875861A00E6E90E /* SensorViewControlleriPhone4.5.xib */,
+			);
+			name = Graphs;
+			path = FlexibleSensorApp/Graphs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,10 +423,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B436B41875861A00E6E90E /* SensorViewControlleriPhone3.5.xib in Resources */,
+				69B43693187585D500E6E90E /* Default@2x.png in Resources */,
 				69B436601875845000E6E90E /* LICENSE in Resources */,
+				69B43690187585D400E6E90E /* DidactGothic.ttf in Resources */,
+				69B43694187585D500E6E90E /* mechlab-icon.png in Resources */,
 				69B4363A18757F5D00E6E90E /* InfoPlist.strings in Resources */,
+				69B43697187585D500E6E90E /* LICENSE in Resources */,
+				69B43698187585D500E6E90E /* README.md in Resources */,
 				69B436611875845000E6E90E /* README.md in Resources */,
+				69B43696187585D500E6E90E /* ionicons.ttf in Resources */,
+				69B436B51875861A00E6E90E /* SensorViewControlleriPhone4.5.xib in Resources */,
+				69B43692187585D400E6E90E /* Default.png in Resources */,
 				69B4364218757F5D00E6E90E /* Images.xcassets in Resources */,
+				69B436B31875861A00E6E90E /* SensorViewControlleriPad.xib in Resources */,
+				69B43691187585D400E6E90E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +456,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B436A3187585D500E6E90E /* JCGyroscope.m in Sources */,
+				69B4369B187585D500E6E90E /* JCLogger.m in Sources */,
+				69B436A4187585D500E6E90E /* JCHeartRateDevice.m in Sources */,
+				69B436B01875861A00E6E90E /* JCGraphView.m in Sources */,
+				69B436B11875861A00E6E90E /* JCOptionTableViewViewController.m in Sources */,
+				69B4369C187585D500E6E90E /* JCAppData.m in Sources */,
 				69B4363C18757F5D00E6E90E /* main.m in Sources */,
 				69B4364018757F5D00E6E90E /* JCAppDelegate.m in Sources */,
+				69B4369A187585D500E6E90E /* JCFilterManager.m in Sources */,
+				69B43695187585D500E6E90E /* IonIcons.m in Sources */,
+				69B4369D187585D500E6E90E /* JCFilterData.m in Sources */,
+				69B436A2187585D500E6E90E /* JCDeviceMotion.m in Sources */,
+				69B43699187585D500E6E90E /* SensorToCoreDataTest.xcdatamodeld in Sources */,
+				69B436A1187585D500E6E90E /* JCAccelerometer.m in Sources */,
+				69B4369F187585D500E6E90E /* JCSensorData.m in Sources */,
+				69B436A5187585D500E6E90E /* JCLocation.m in Sources */,
+				69B436A0187585D500E6E90E /* JCSensorManager.m in Sources */,
+				69B4369E187585D500E6E90E /* JCSensor.m in Sources */,
+				69B436B21875861A00E6E90E /* JCSensorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +687,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69B43671187585D400E6E90E /* SensorToCoreDataTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69B43672187585D400E6E90E /* SensorToCoreDataTest.xcdatamodel */,
+			);
+			currentVersion = 69B43672187585D400E6E90E /* SensorToCoreDataTest.xcdatamodel */;
+			path = SensorToCoreDataTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69B4362418757F5D00E6E90E /* Project object */;
 }

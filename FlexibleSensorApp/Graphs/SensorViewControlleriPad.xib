@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JCSensorViewController">
+            <connections>
+                <outlet property="frameForExpandedGraphView" destination="Grw-bi-TrP" id="M3I-6w-GUM"/>
+                <outlet property="graphViewBottomLeft" destination="wkW-Kc-4sT" id="hJ9-Vh-k01"/>
+                <outlet property="graphViewBottomRight" destination="0vM-sd-Rl8" id="LgL-fZ-oK7"/>
+                <outlet property="graphViewTopLeft" destination="XrL-He-0gs" id="mdn-nH-R6R"/>
+                <outlet property="graphViewTopRight" destination="PZc-vU-JZ5" id="EbT-Th-jRa"/>
+                <outlet property="optionView" destination="5ii-Sg-OaZ" id="RbV-XS-JAe"/>
+                <outlet property="playButton" destination="IjF-6O-EDd" id="lbF-r3-zOF"/>
+                <outlet property="stopButton" destination="yCZ-Ab-67I" id="Ta5-ph-ZY0"/>
+                <outlet property="styleButton" destination="Jl1-Az-4hy" id="SeT-YC-CIO"/>
+                <outlet property="view" destination="94z-uP-5sb" id="8Oy-6L-ETj"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="94z-uP-5sb">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Grw-bi-TrP" userLabel="ResizeView">
+                    <rect key="frame" x="255" y="37" width="750" height="662"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCZ-Ab-67I" userLabel="Stop Button">
+                    <rect key="frame" x="78" y="698" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stop" destination="-1" eventType="touchUpInside" id="5aI-dc-9Ic"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jl1-Az-4hy" userLabel="Option Button">
+                    <rect key="frame" x="188" y="698" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="style" destination="-1" eventType="touchUpInside" id="5dE-Th-ytK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjF-6O-EDd" userLabel="Play Button">
+                    <rect key="frame" x="20" y="698" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="play" destination="-1" eventType="touchUpInside" id="UfV-g5-1HG"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5ii-Sg-OaZ" userLabel="Option Table View">
+                    <rect key="frame" x="20" y="159" width="218" height="460"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XrL-He-0gs" userLabel="TL" customClass="JCGraphView">
+                    <rect key="frame" x="257" y="70" width="365" height="310"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="2MD-a9-Tpd" appends="YES" id="u2o-Gc-fFK"/>
+                        <outletCollection property="gestureRecognizers" destination="nlB-3G-Ruz" appends="YES" id="6LM-6F-KGU"/>
+                        <outletCollection property="gestureRecognizers" destination="Gw1-Vu-uvR" appends="YES" id="OZX-my-1v8"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZc-vU-JZ5" userLabel="TR" customClass="JCGraphView">
+                    <rect key="frame" x="628" y="68" width="377" height="316"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="fx1-LP-JJC" appends="YES" id="wBm-ld-a0t"/>
+                        <outletCollection property="gestureRecognizers" destination="F1R-fE-Ldu" appends="YES" id="lNm-SA-HZN"/>
+                        <outletCollection property="gestureRecognizers" destination="sbv-cZ-nKY" appends="YES" id="kU0-bN-b5n"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wkW-Kc-4sT" userLabel="BL" customClass="JCGraphView">
+                    <rect key="frame" x="255" y="389" width="365" height="310"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="n51-yP-ZVS" appends="YES" id="fiX-yy-sID"/>
+                        <outletCollection property="gestureRecognizers" destination="VcZ-aA-BWc" appends="YES" id="SQJ-gd-JcG"/>
+                        <outletCollection property="gestureRecognizers" destination="tsv-VR-yh0" appends="YES" id="mBn-dd-9oh"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0vM-sd-Rl8" userLabel="BR" customClass="JCGraphView">
+                    <rect key="frame" x="627" y="389" width="377" height="310"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="fqy-0I-e9q" appends="YES" id="4rT-FU-9Gl"/>
+                        <outletCollection property="gestureRecognizers" destination="fHe-0f-Lkz" appends="YES" id="wNd-bz-rV2"/>
+                        <outletCollection property="gestureRecognizers" destination="m1N-Nv-KWE" appends="YES" id="c6r-vp-7rZ"/>
+                    </connections>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mechlab-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="uUb-q9-dhq">
+                    <rect key="frame" x="20" y="20" width="131" height="131"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <pinchGestureRecognizer id="Gw1-Vu-uvR">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="qIU-Kl-hzG"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <pinchGestureRecognizer id="tsv-VR-yh0">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="RuJ-R3-rtz"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <pinchGestureRecognizer id="F1R-fE-Ldu">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="1Ws-DW-Dqx"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <pinchGestureRecognizer id="fqy-0I-e9q">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="pc9-18-Q5I"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="2MD-a9-Tpd">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="86k-Rs-Tt4"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="VcZ-aA-BWc">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="umP-bs-fVa"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="m1N-Nv-KWE">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="bk7-qg-VZr"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="fx1-LP-JJC">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="hc1-Bp-Kor"/>
+            </connections>
+        </tapGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="nlB-3G-Ruz">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="Ou5-2u-e4h"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="sbv-cZ-nKY">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="6hI-qi-gR4"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="fHe-0f-Lkz">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="BlN-Zu-eKF"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="n51-yP-ZVS">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="Ppn-Ha-5tG"/>
+            </connections>
+        </panGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="mechlab-icon.png" width="120" height="120"/>
+    </resources>
+</document>

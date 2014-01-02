@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JCSensorViewController">
+            <connections>
+                <outlet property="frameForExpandedGraphView" destination="7aL-75-bCy" id="2Rd-W5-xIH"/>
+                <outlet property="graphViewBottomLeft" destination="hOc-8w-wA5" id="bOp-NY-2ht"/>
+                <outlet property="graphViewBottomRight" destination="s0K-ui-Wal" id="kxp-4O-yqh"/>
+                <outlet property="graphViewTopLeft" destination="N1R-FZ-l5U" id="8pp-ZB-AUg"/>
+                <outlet property="graphViewTopRight" destination="6IB-gq-kcK" id="q8u-jA-7Cv"/>
+                <outlet property="heartButton" destination="iwU-vK-hel" id="Ac9-LK-q9A"/>
+                <outlet property="optionView" destination="HAT-1V-Xvq" id="bqg-Z5-C8l"/>
+                <outlet property="playButton" destination="sJU-eL-WeD" id="95a-P7-rMT"/>
+                <outlet property="stopButton" destination="Lwt-Z3-3wm" id="46V-BH-VPj"/>
+                <outlet property="styleButton" destination="U68-54-gn0" id="bwo-kG-MR6"/>
+                <outlet property="view" destination="Gjr-nC-rmZ" id="PwA-oF-FIr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Gjr-nC-rmZ">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mechlab-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="lv6-Eo-8Yy">
+                    <rect key="frame" x="11" y="-13" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJU-eL-WeD" userLabel="Play Button">
+                    <rect key="frame" x="9" y="282" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <state key="normal" backgroundImage="Default.png">
+                        <color key="titleColor" red="0.08235294371843338" green="0.76470595598220825" blue="0.12156863510608673" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="play" destination="-1" eventType="touchDown" id="Maf-oA-UmF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwt-Z3-3wm" userLabel="Stop Button">
+                    <rect key="frame" x="42" y="282" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Default.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stop" destination="-1" eventType="touchDown" id="YjX-zg-nL9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwU-vK-hel" userLabel="Heart Button">
+                    <rect key="frame" x="118" y="249" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Default.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stop" destination="-1" eventType="touchDown" id="Xco-sS-fWb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U68-54-gn0" userLabel="Settings Button">
+                    <rect key="frame" x="118" y="282" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Default.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="style" destination="-1" eventType="touchUpInside" id="aOm-H7-8gv"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aL-75-bCy" userLabel="Expanded Graph View">
+                    <rect key="frame" x="160" y="39" width="394" height="268"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N1R-FZ-l5U" userLabel="Graph View Top Left" customClass="JCGraphView">
+                    <rect key="frame" x="160" y="39" width="192" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Xs4-hu-eZ0" appends="YES" id="Bid-en-p0p"/>
+                        <outletCollection property="gestureRecognizers" destination="O08-zc-5aU" appends="YES" id="CuE-RM-zSp"/>
+                        <outletCollection property="gestureRecognizers" destination="nKM-Oi-LTX" appends="YES" id="xXE-SA-P0a"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hOc-8w-wA5" userLabel="Graph View Bot Left" customClass="JCGraphView">
+                    <rect key="frame" x="160" y="177" width="192" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Euc-dY-Fru" appends="YES" id="bKP-Tm-2JV"/>
+                        <outletCollection property="gestureRecognizers" destination="3rj-0q-Wme" appends="YES" id="Y9v-w5-HC0"/>
+                        <outletCollection property="gestureRecognizers" destination="APz-EN-h7j" appends="YES" id="FpR-6K-yoB"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6IB-gq-kcK" userLabel="Graph View Top Right" customClass="JCGraphView">
+                    <rect key="frame" x="362" y="39" width="192" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="mrW-Zh-pHu" appends="YES" id="jnD-ca-EKI"/>
+                        <outletCollection property="gestureRecognizers" destination="Fct-yo-gww" appends="YES" id="oiQ-BY-2b3"/>
+                        <outletCollection property="gestureRecognizers" destination="fMz-bC-ht6" appends="YES" id="Rnf-Je-eiF"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s0K-ui-Wal" userLabel="Graph View Bot Right" customClass="JCGraphView">
+                    <rect key="frame" x="362" y="177" width="192" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Zbj-7T-VY5" appends="YES" id="oLw-GP-6qr"/>
+                        <outletCollection property="gestureRecognizers" destination="P29-0U-mAx" appends="YES" id="MnH-30-grn"/>
+                        <outletCollection property="gestureRecognizers" destination="IKA-FA-Igf" appends="YES" id="PJN-mM-suB"/>
+                    </connections>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="singleLineEtched" allowsSelectionDuringEditing="YES" rowHeight="24" sectionHeaderHeight="7" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="HAT-1V-Xvq" userLabel="Option Table View">
+                    <rect key="frame" x="9" y="39" width="143" height="199"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                </tableView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FN-dJ-6PP" userLabel="Diagram Title">
+                    <rect key="frame" x="9" y="10" width="190" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <pinchGestureRecognizer id="Xs4-hu-eZ0" userLabel="Pinch Top Left">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="Rif-as-fCF"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="O08-zc-5aU" userLabel="Pan Top Left">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="SXE-V2-D2W"/>
+            </connections>
+        </panGestureRecognizer>
+        <pinchGestureRecognizer id="mrW-Zh-pHu" userLabel="Pinch Top Right">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="ml0-Zy-b5L"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="Fct-yo-gww" userLabel="Pan Top Right">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="6Rr-nI-0AJ"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="Euc-dY-Fru" userLabel="Pan Bot Left">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="cUN-fe-XQb"/>
+            </connections>
+        </panGestureRecognizer>
+        <pinchGestureRecognizer id="3rj-0q-Wme" userLabel="Pinch Bot Left">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="NfX-8K-PdU"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="Zbj-7T-VY5" userLabel="Pan Bot Right">
+            <connections>
+                <action selector="handlePanGesture:" destination="-1" id="txR-tp-qgl"/>
+            </connections>
+        </panGestureRecognizer>
+        <pinchGestureRecognizer id="P29-0U-mAx" userLabel="Pinch Bot Right">
+            <connections>
+                <action selector="handlePinchGesture:" destination="-1" id="bsZ-s6-Tuj"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="nKM-Oi-LTX" userLabel="DTap Top Left">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="2ci-ME-Yf9"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="fMz-bC-ht6" userLabel="DTap Top Right">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="cRX-20-TkT"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="APz-EN-h7j" userLabel="DTap Bot Left">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="hch-vQ-Ftv"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="IKA-FA-Igf" userLabel="DT Bot Right">
+            <connections>
+                <action selector="handleTapGesture:" destination="-1" id="Wvb-4A-uaq"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="mechlab-icon.png" width="120" height="120"/>
+    </resources>
+</document>
